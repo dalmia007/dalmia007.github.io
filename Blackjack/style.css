@@ -1,0 +1,96 @@
+/* Body */
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    background-image: url(img/table.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(58, 120, 87)
+}
+
+/* Banner */
+#blackjack {
+    height: 200px;
+}
+
+#messages h2 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/*Holder*/
+#holder {
+    margin: auto;
+    height: 440px;
+    width: 700px;
+
+}
+#dealer-hand, #player-hand {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+}
+#dealer-label, #player-label {
+    display: block;
+    color: white;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left;
+    width: 600px;
+    margin: 10px auto 10px;
+}
+
+
+/*Buttons*/
+.buttons button {
+    color: black;
+    width: 125px;
+    background-color: #EFEFEF;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    vertical-align: top;
+    height: 50px;
+    outline: none;
+}
+#hit-button:hover {
+    opacity: .8;
+    transition: .5s;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+}
+
+#deal-button:hover {
+    opacity: .8;
+    transition: .5s;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+#stand-button:hover {
+    opacity: .8;
+    transition: .5s;
+    color: white;
+    background-color:red;
+    cursor: pointer;
+    border: none;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0;
+}
+
+/*Card Images*/
+.hand img {
+    height: 100%;
+    margin-left: -15px;
+}
